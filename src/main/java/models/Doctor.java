@@ -2,14 +2,9 @@ package models;
 
 import javax.persistence.*;
 
-
-
-
 @Entity
 @Table(name="Doctors")
 public class Doctor {
-	
-	
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -80,11 +75,4 @@ public class Doctor {
 	public void setHosp(String hosp) {
 		this.hosp = hosp;
 	}
-	
-	
-	
-	
-	
-	
-
 }

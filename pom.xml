@@ -64,8 +64,7 @@
 		            <appName>${WEBAPP_NAME}</appName>
 		            <linuxRuntime>tomcat 8.5-jre8</linuxRuntime>
 		        </configuration>
-	           </plugin>
-	           
+	       </plugin>
 		</plugins>
 	</build>
 
