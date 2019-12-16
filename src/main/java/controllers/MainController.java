@@ -1,6 +1,5 @@
 package controllers;
 
-
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,7 +23,7 @@ import Repositories.PatientRepository;
 import controllers.Status;
 
 
-@Controller
+@Controller	
 @RequestMapping()
 public class MainController {
 
